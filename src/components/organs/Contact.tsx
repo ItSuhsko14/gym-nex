@@ -6,6 +6,11 @@ import { Button } from "../atoms/Button"
 
 
 const Contact = () => {
+    const handleButtonClick = () => {
+        const telegramLink = 'https://t.me/ALutiy';
+        window.open(telegramLink, '_blank');
+    };
+
     return (
         <section className="w-full md:h-[400px] h-[500px] relative">
             <Image alt="Contact Image" className="w-full h-full" objectCover="object-cover object-top" image={ContactImg} />
@@ -19,7 +24,7 @@ const Contact = () => {
                 <Text as="p" className="text-zinc-100 md:w-1/2 w-4/5 text-center text-lg my-6">
                     {ContactTexts.paragraph}
                 </Text>
-                <Button className="px-10 font-medium text-white py-2.5 bg-gradient-to-r whitespace-nowrap from-red-500 to-amber-500" type="button">
+                <Button className="px-10 font-medium text-white py-2.5 bg-gradient-to-r whitespace-nowrap from-red-500 to-amber-500" type="button" onClick={handleButtonClick}>
                     {ContactTexts.button}
                 </Button>
             </div>
