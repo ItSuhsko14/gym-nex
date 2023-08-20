@@ -1,26 +1,26 @@
 export const NavLinks = [
     {
-        name: "Home",
+        name: "Початок",
         url: "/"
     },
     {
-        name: "About Us",
+        name: "Про нас",
         url: "/about"
     },
     {
-        name: "Schedule",
+        name: "Розклад",
         url: "/schedule"
     },
     {
-        name: "Gallery",
+        name: "Галерея",
         url: "/gallery"
     },
     {
-        name: "News",
+        name: "Новини",
         url: "/news"
     },
     {
-        name: "Contacts",
+        name: "Контакти",
         url: "/contact"
     },
 ];
@@ -29,84 +29,84 @@ export const NavLinks = [
 
 export const HeroTexts = [
     {
-        Heading: "Unleash Your Inner Strength!",
-        Paragraph: "Welcome to GymNex, where fitness meets fun! Get ready to unleash your inner strength and transform your life!",
-        Button: "Join Now!"
+        Heading: "Замов сайт свого залу!",
+        Paragraph: "Пропоную тобі замовити власний сайт, якщо ти тренер або власник спортивного клубу!",
+        Button: "Звертайся до нас!"
     },
     {
-        Heading: "New Heights of Fitness!",
-        Paragraph: "Push your limits and achieve greatness at our gym! Join our supportive community and embark on a journey of self-improvement and empowerment!",
-        Button: "Sign Up Today!"
+        Heading: "Крутий сайт для фітнес тренера!",
+        Paragraph: "Гарний сайт для твоєї справи стане чудовим представництвом в мережі, яке буде працювати на твою користь!",
+        Button: "Напиши зараз!"
     },
     {
-        Heading: "Fitness is Fun with Us!",
-        Paragraph: "At our gym, fitness is not just a routine; it's an enjoyable adventure! Join us in this fitness expedition, where fun and results go hand in hand!",
-        Button: "Enroll Now!"
+        Heading: "Просувай свої послуги онлайн!",
+        Paragraph: "Цей сайт є шаблоном, на якому будуть розміщенні твої фото і тексти для клієнтів. Достатньо звернутись до нас за розробкою!",
+        Button: "Ми допоможемо!"
     }
 ]
 
 
 export const AboutTexts = {
-    firstText: "About GymNex",
-    secondText: "Welcome",
-    caption: "Welcome to GymNex, where fitness meets community and transformation happens!",
-    paragraph1: "At GymNex, we are more than just a gym; we are a passionate and supportive fitness family dedicated to helping you achieve your health and wellness goals. Our mission is to create a positive and empowering environment that inspires you to challenge yourself, embrace a healthy lifestyle, and discover the best version of yourself.",
+    firstText: "Про нас",
+    secondText: "Вітаємо",
+    caption: "Раді бачити тебе на цьому шаблоні, який створений для твого майбутнього сайту.",
+    paragraph1: "Кожен блок цього шаблону буде адаптований під потреби твоєї справи. В кожному місці, де знаходиться фото буде розміщене твоє. Всі тексти будуть адаптовані таким чином, щоб залучити твого клієнта.",
 }
 
 export const OfferTexts = {
-    firstText: "What we do",
-    secondText: "All Our Offer",
+    firstText: "Що ми робимо",
+    secondText: "Наші послуги",
     list: [
         {
-            listCaption: "Weight Loose Programs",
-            text: "Our personalized approach, expert guidance, and proven results will help you achieve your fitness goals. Take the first step towards a transformed body and lifestyle today.",
+            listCaption: "Розробка сайтів",
+            text: "Наш індивідуальний підхід, професійне керівництво та перевірені результати допоможуть вам досягти ваших цілей у сфері розробки веб-сайтів. Зробіть перший крок на шляху до сучасного та привабливого сайту для вашого бізнесу вже сьогодні.",
         },
         {
-            listCaption: "Body Building Programs",
-            text: "Our expert trainers will guide you through tailored workouts, helping you achieve your bodybuilding goals efficiently and safely.",
+            listCaption: "Розміщення сайтів",
+            text: "Наші експертні фахівці допоможуть вам крок за кроком розмістити та опублікувати ваш веб-сайт в Інтернеті. З їхньою допомогою ваш сайт буде запущений ефективно та безпечно, а ви зможете досягти поставлених цілей у сфері розміщення онлайн-присутності.",
         }
         , {
-            listCaption: "Different Special Classes",
-            text: "Take your workout to new heights with our high and intense Special Class, where you'll push your limits and achieve remarkable fitness results.",
+            listCaption: "Підтримка сайтів",
+            text: "Підніміть свій сайт на новий рівень завдяки нашим послугам високоякісної та інтенсивної підтримки, де ми допоможемо вам подолати обмеження та досягти вражаючих результатів у сфері управління та підтримки вашого веб-сайту.",
         }
     ],
 }
 
 export const MembershipPlans = {
-    firstText: "Pricing Tables",
-    secondText: "Membership Plans",
+    firstText: "Наші ціни",
+    secondText: "Цінові плани",
     cards: [
         {
-            amount: 8,
-            duration: "day",
-            caption: "One Day Training",
-            benefits: ["One time access to all clubs", "Group trainer", "Book a Group class", "Fitness orientation"]
+            amount: 100,
+            duration: "сайт",
+            caption: "Односторінковий сайт",
+            benefits: ["Швидка розробка", "Невисока вартість", "Добре для початку", "Легко для сприйняття"]
         },
         {
-            amount: 49,
-            duration: "month",
-            caption: "12 Months Membership",
-            benefits: ["Group classes", "Discuss fitness goals", "Group trainer", "Fitness orientation"]
+            amount: 150,
+            duration: "сайт",
+            caption: "Багатосторінковий сайт ",
+            benefits: ["Сучасний сайт", "Більше корисної інформації", "Краща оптимізація для пошуку", "Глибина залучення"]
         },
         {
-            amount: 65,
-            duration: "month",
-            caption: "Pay Every Month",
-            benefits: ["Group classes", "Discuss fitness goals", "Group trainer", "Fitness orientation"]
+            amount: 300,
+            duration: "сайт",
+            caption: "Функціональний сайт",
+            benefits: ["Інтерактивна взаємодія", "Автоматичний запис на тренування", "Редагування розкладу", "Кращий користувацький досвід"]
         }
     ]
 }
 
 export const ContactTexts = {
-    firstText: "call us today",
-    phone: "(+234)70-6910-6259",
-    paragraph: "At our gym, you can reach out to any of our trainers to schedule a session. Home services is also within the scope of out services. Your fitness is our concern! Health is wealth!",
-    button: "Schedule A Meet"
+    firstText: "напиши нам зараз",
+    phone: "(067) 630-93-42",
+    paragraph: "Ми безкоштовно дамо відповіді на твої питання і допоможемо визначитись із потребами.",
+    button: "Написати"
 }
 
 export const TestimonialTexts = {
-    firstText: "our testimonials",
-    secondText: "What Clients Say",
+    firstText: "наші відгуки",
+    secondText: "Що говорять клієнти",
     feedBacks: [
         {
             text: "I've been a member for six months, and the gym's supportive community and knowledgeable trainers have helped me surpass my fitness goals!",
@@ -127,8 +127,8 @@ export const TestimonialTexts = {
 }
 
 export const BlogTexts = {
-    firstText: "Get informed",
-    secondText: "Our Latest News",
+    firstText: "Будь в курсі",
+    secondText: "Наші останні новини",
     blogNews: [
         {
             caption: "Yoga",
@@ -158,49 +158,49 @@ export const BlogTexts = {
 }
 
 export const FooterTexts = {
-    underLogoText: "We are more than just a gym; we are a passionate and supportive fitness family dedicated to helping you achieve your health and wellness goals. Our mission is to create a positive and empowering environment that inspires you to challenge yourself, embrace a healthy lifestyle, and discover the best version of yourself.",
+    underLogoText: "Ми розробляєм веб-сайти для фітнес-клубів та тренерів. Ваш унікальний підхід отримає відображення в стильному дизайні. Привертайте нових клієнтів та забезпечуйте зручність для існуючих.",
     quickLinks: {
-        caption: "Quick Links",
+        caption: "Посилання",
         links: [
             {
-                name: "Home",
+                name: "Початок",
                 url: "/"
             },
             {
-                name: "About Us",
+                name: "Про нас",
                 url: "/about"
             },
             {
-                name: "Schedule",
+                name: "Розклад",
                 url: "/schedule"
             },
             {
-                name: "Gallery",
+                name: "Галерея",
                 url: "/gallery"
             },
             {
-                name: "News",
+                name: "Новини",
                 url: "/news"
             },
             {
-                name: "Contacts",
+                name: "Контакти",
                 url: "/contact"
             },
         ]
     },
     contacts: {
-        caption: "Quick Contacts",
+        caption: "Контакти",
         names: [
             {
-                name: "11567 Santa Monica Blvd, Los Angeles, CA 90025, United States",
+                name: "Дніпро, Україна",
             },
             {
-                name: "gym_nex@example.com",
+                name: "itSushkoAndriy@gmail.com",
             },
             {
-                name: "+1 424-248-8496",
+                name: "+3 8067 630-93-42",
             }
         ]
     },
-    copyright: "Copyright 2023. All Right Reserved"
+    copyright: "Створено Mustache development"
 }
